@@ -1,5 +1,12 @@
-const App = () => {
-  
-}
+import { UserForm, CommentForm } from "./components";
 
-export default App
+const App = () => {
+  return (
+    <>
+      <UserForm />
+      <CommentForm />
+    </>
+  );
+};
+
+export default App;
