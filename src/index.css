@@ -14,3 +14,33 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+input {
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+button {
+  margin-top: 8px;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+  background: white;
+  border: 1px solid;
+  box-shadow: 5px 5px 0 black, -5px -5px 0 black, -5px 5px 0 black,
+    5px -5px 0 black;
+  transition: 500ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+}
+
+button:focus {
+  outline: none;
+}

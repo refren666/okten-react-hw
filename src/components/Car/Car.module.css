@@ -1,0 +1,10 @@
+.carBlock {
+  border-bottom: 1px solid;
+  padding: 12px 20px;
+}
+
+.btnContainer {
+  display: flex;
+  column-gap: 30px;
+  margin-left: 5px;
+}

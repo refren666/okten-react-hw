@@ -1,5 +1,7 @@
-const App = () => {
-  
-}
+import { CarForm } from './components';
 
-export default App
+const App = () => {
+  return <CarForm />;
+};
+
+export default App;
